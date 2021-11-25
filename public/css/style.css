@@ -1,3 +1,7 @@
 body {
-  background: antiquewhite;
+  background: antiquewhite !important; 
+}
+
+navbar {
+  color: antiquewhite !important
 }

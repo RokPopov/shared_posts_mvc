@@ -13,3 +13,6 @@
 
   // Site name
   define('SITENAME', 'SharedPosts');
+
+  // App version
+  define('APP_VERSION', '1.0.0');
