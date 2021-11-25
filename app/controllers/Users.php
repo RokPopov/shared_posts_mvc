@@ -16,9 +16,9 @@
           'email' => '',
           'password' => '',
           'confirm_password' => '',
-          'name_err' => '',
-          'password_err' => '',
-          'confirm_password_err'
+          'name_error' => '',
+          'password_error' => '',
+          'confirm_password_error'
         ];
 
         // load view
