@@ -3,7 +3,7 @@
     <div class="col-md-6 mx-auto">
       <div class="card card-body bg-dark mt-5" style="color:antiquewhite">
         <h2 style="color:antiquewhite">Create An Account</h2>
-        <p style="color:antiquewhite"Please fill out this form to register with us</p>
+        <p style="color:antiquewhite"> Please fill out this form to register with us</p>
         <form action="<?php echo URLROOT; ?>/users/register" method="post">
           <div class="form-group">
             <label for="name">Name: <sup>*</sup></label>
