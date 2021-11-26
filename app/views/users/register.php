@@ -1,9 +1,9 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
   <div class="row">
     <div class="col-md-6 mx-auto">
-      <div class="card card-body bg-light mt-5">
-        <h2>Create An Account</h2>
-        <p>Please fill out this form to register with us</p>
+      <div class="card card-body bg-dark mt-5" style="color:antiquewhite">
+        <h2 style="color:antiquewhite">Create An Account</h2>
+        <p style="color:antiquewhite"Please fill out this form to register with us</p>
         <form action="<?php echo URLROOT; ?>/users/register" method="post">
           <div class="form-group">
             <label for="name">Name: <sup>*</sup></label>
@@ -31,7 +31,7 @@
               <input type="submit" value="Register" class="btn btn-success btn-block">
             </div>
             <div class="col">
-              <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-light btn-block">Have an account? Login</a>
+              <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-dark btn-block">Have an account? Login</a>
             </div>
           </div>
         </form>
