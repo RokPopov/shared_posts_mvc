@@ -61,7 +61,7 @@
 
     // execute the prepared statement
     public function execute(){
-      $this->stmt->execute();
+      return $this->stmt->execute();
     }
 
     // get result set as array of objects
