@@ -5,6 +5,10 @@
     }
 
     public function index(){
+      if(isLoggedIn()){
+        redirect('posts');
+      }
+
       $data = [
         'title' => 'SharePosts',
         'description' => 'Small social network built on top of RokMVC Framework'
