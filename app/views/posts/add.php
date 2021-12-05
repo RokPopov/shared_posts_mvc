@@ -14,7 +14,7 @@
             <textarea name="body" class="form-control form-control-lg <?php echo (!empty($data['body_err'])) ? 'is-invalid' : ''; ?>"><?php echo $data['body']; ?></textarea>
             <span class="invalid-feedback"><?php echo $data['body_err']; ?></span>
           </div>
-          <input type="submit" class="btn btn-light m-3" value="Submit">
+          <input type="submit" class="btn btn-success m-3" value="Submit">
         </form>
       </div>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
